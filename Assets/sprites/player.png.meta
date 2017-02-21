@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: fa006efbf3635d3419a5e70d8f23f5fa
-timeCreated: 1487466300
+guid: a865ecead045e534cb9aab4435db25d6
+timeCreated: 1487465568
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: platform_0
-    21300002: platform_1
-    21300004: platform_2
-    21300006: platform_3
-    21300008: platform_4
-    21300010: platform_5
+    21300000: player_0
+    21300002: player_1
+    21300004: player_2
+    21300006: player_3
+    21300008: player_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -76,78 +75,65 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: platform_0
+      name: player_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 80
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 80
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 40
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 40
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_1
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_3
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_4
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1
-        width: 10
-        height: 10
+        y: 0
+        width: 34
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

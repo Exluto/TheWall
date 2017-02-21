@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: fa006efbf3635d3419a5e70d8f23f5fa
-timeCreated: 1487466300
+guid: 57d5c3d6c78d48745aebf0c85cf8d34d
+timeCreated: 1487475305
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: platform_0
-    21300002: platform_1
-    21300004: platform_2
-    21300006: platform_3
-    21300008: platform_4
-    21300010: platform_5
+    21300000: background_0
+    21300002: background_1
+    21300004: background_2
+    21300006: background_3
+    21300008: background_4
+    21300010: background_5
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -76,78 +76,78 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: platform_0
+      name: background_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
-        width: 10
-        height: 10
+        y: 101
+        width: 40
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: platform_1
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_3
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_4
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: platform_5
+      name: background_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 10
-        height: 10
+        y: 41
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 41
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 41
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 41
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
