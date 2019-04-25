@@ -1,13 +1,12 @@
 fileFormatVersion: 2
-guid: fa006efbf3635d3419a5e70d8f23f5fa
+guid: 7f1dbf3e953937e4db999e9d865e6689
 TextureImporter:
   fileIDToRecycleName:
-    21300000: platform_0
-    21300002: platform_1
-    21300004: platform_2
-    21300006: platform_3
-    21300008: platform_4
-    21300010: platform_5
+    21300000: alien-trooper-idle_0
+    21300002: alien-trooper-idle_1
+    21300004: alien-trooper-idle_2
+    21300006: alien-trooper-idle_3
+    21300008: alien-trooper-idle_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -47,11 +46,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 8
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +68,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -80,7 +79,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -90,33 +89,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: platform_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 12
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5de7a82a2fa78842bf452cdb2064819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platform_1
+      name: alien-trooper-idle_0
       rect:
         serializedVersion: 2
         x: 10
-        y: 12
-        width: 10
-        height: 10
+        y: 69
+        width: 37
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,19 +103,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57ae0f169c522e248b4c0835c20ff3da
+      spriteID: 9f7f0b7af9b74044a9be1cdaaacc35f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform_2
+      name: alien-trooper-idle_1
       rect:
         serializedVersion: 2
-        x: 20
-        y: 12
-        width: 10
-        height: 10
+        x: 48
+        y: 69
+        width: 37
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,19 +123,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 437b89184e2542e459eecd16f84b63dc
+      spriteID: d13626154e0885c48ba51f342a80917a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform_3
+      name: alien-trooper-idle_2
       rect:
         serializedVersion: 2
-        x: 30
-        y: 12
-        width: 10
-        height: 10
+        x: 86
+        y: 69
+        width: 38
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a16bfe15abb832744a3c2895c6959e5e
+      spriteID: 2c16826550f5de048a16f68a4f86b226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform_4
+      name: alien-trooper-idle_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 12
-        width: 10
-        height: 10
+        x: 10
+        y: 19
+        width: 37
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,19 +163,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9210b5b30e1ae3b478c4ef752f55367d
+      spriteID: 2026f2fd28d28254597673c00d4f4f60
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform_5
+      name: alien-trooper-idle_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 10
-        height: 10
+        x: 48
+        y: 18
+        width: 37
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,7 +183,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fef2675329873d44eaf471fe8ac29ed1
+      spriteID: e33e95b17836ffa4e99ee88d4aeec3b1
       vertices: []
       indices: 
       edges: []
@@ -212,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a8ea046753d350f4db43f25dd9869a76
     vertices: []
     indices: 
     edges: []
