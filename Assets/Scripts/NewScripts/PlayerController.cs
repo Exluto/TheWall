@@ -20,10 +20,14 @@ public class PlayerController : MonoBehaviour {
 	public float _jumpTime;
 	private bool _isJumping; 
 
+	ObjectPooler _objectPooler;
+	public Transform _firePoint;
+
 	// Use this for initialization
 	void Start () {
 		_rb2D = GetComponent<Rigidbody2D>();
 		_anim = GetComponent<Animator>();
+		_objectPooler = ObjectPooler.Instance;
 	}
 
 	void FixedUpdate() {
@@ -66,6 +70,10 @@ public class PlayerController : MonoBehaviour {
 
 		if(Input.GetKeyUp(KeyCode.Space)) {
 			_isJumping = false;
+		}
+
+		if(Input.GetMouseButtonDown(0)) {
+			_objectPooler.SpawnFromPool("Laser", _firePoint.position, _firePoint.rotation);
 		}
 	}
 }
